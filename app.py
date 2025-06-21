@@ -6,7 +6,7 @@ st.set_page_config(page_title="Perfiles Clínicos Psiquiátricos", layout="wide"
 st.title("🧠 Análisis de Perfiles Clínicos en Hospitalización Psiquiátrica")
 
 Cargar datos desde GitHub (ajusta con tu enlace RAW)
-url = "https://raw.githubusercontent.com/tu_usuario/tu_repositorio/main/resultados_clustering.csv"
+url = "https://github.com/JorgePizza/ProyectoML.git"
 df = pd.read_csv(url)
 
 Filtro por clúster
